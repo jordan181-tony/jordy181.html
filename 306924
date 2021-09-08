@@ -1,0 +1,46 @@
+<form action="toto.php" method="post" >
+<body>
+<div style="background-color:#C0C0C0">
+<b><fieldset>
+ <legend style="color:#00ffff;"> A propos de Jordan: </legend>
+   <h3 style="color:#008080;">Connaissez vous vraiment Jordan ? :</h3>
+     <input type="radio" name="Jordan" value="oui" id="oui"
+     checked="checked" /input>
+     <b><label for="oui" class="inline">Oui</label><br>
+     <input type="radio" name="Jordan" value="non" id="non" </input>
+     <b><label for="non" class="inline">Non</label><br>
+	 
+  <br><label for="utilise">Si oui,donnez nous un indice : </label><br>
+   <br><select name="utilise" id="utilise">
+   <option value="toujours"> Etudiant</option>
+   <option value="parfois">Ecrivain</option>
+   <option value="jamais">Etudiant et Ecrivain</option>
+  <option value="jamais">Comique</option>
+  <option value="jamais">Agressif</option>
+<option value="jamais">Calme</option>
+  <option value="jamais">Simple</option>
+  <option value="jamais">Celibataire</option>
+<option value="jamais">En couple</option>
+  <option value="jamais">Informaticien</option>
+  <option value="jamais">Informaticien et Ecrivain</option>
+ <option value="jamais">Autres</option>
+   </select>
+</fieldset>
+<br><br><br><br><br>
+<fieldset>
+ <legend style="color:#00ffff;"> Vos coordonnées :</legend>
+  <b><label style="color:#00ff00;" for="email"><u>Votre email</u> :</label>
+   <input type="email" name="email" size="20" 
+   maxlength="70" value="Email" id="email"/input><br><br>
+
+  <b><label style="color:#00ff00;" for="comments"><b><u>Vos commentaires<b></u> :</label>
+  <textarea name="comments" id="comments" cols="30" rows="5">
+   </textarea>
+</fieldset>
+
+ <p>
+ <b><input type="submit" value="Envoyer" />
+ <input type="reset" value="Annuler" />
+ </p>
+ </body>
+</form>
